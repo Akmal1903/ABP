@@ -66,7 +66,6 @@ class ProductController extends Controller
             'tags' => 'required',
             'sku' => 'required',
             'warna' => 'required',
-            'gambar' => 'required',
             'deskripsi' => 'required',
             'gambar' => 'required|image|mimes:jpg,png,jpeg,webp'
         ]);
@@ -138,7 +137,6 @@ class ProductController extends Controller
             'tags' => 'required',
             'sku' => 'required',
             'warna' => 'required',
-            'gambar' => 'required',
             'deskripsi' => 'required',
             'gambar' => 'required|image|mimes:jpg,png,jpeg,webp'
         ]);

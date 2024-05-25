@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:projectflutter1/login.dart';
 import 'package:projectflutter1/register.dart';
 
@@ -13,15 +14,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return const GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: MainPage(),
     );
   }
 }
 
-class HomePage extends StatelessWidget{
-  const HomePage({super.key});
+class MainPage extends StatelessWidget{
+  const MainPage({super.key});
 
   @override
   Widget build(BuildContext context){
